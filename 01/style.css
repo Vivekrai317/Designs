@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: hsl(346deg 17% 70%);
+    display: flex;
+}
+#part1{
+    height: 100%;
+    width: 26%;
+    /* background-color: red; */
+}
+#part2{
+    height: 100%;
+    width: 67%;
+    background-color: blue;
+    background-image: url(https://images.unsplash.com/photo-1643490743293-1f1de8e3d68a?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-position: center;
+}
+#overlay{
+    height: 100%;
+    width: 100%;
+    background-color: hsla(344, 82%, 39%, 0);
+}
+#part3{
+    height: 100%;
+    width: 7%;
+    /* background-color: green ; */
+}
+#text-div{
+    width: 405px;
+    position: absolute;
+    /* background-color: red; */
+    top: 50%;
+    left: 8%;
+    transform: translate(0,-50%);
+}
+#text-div>h1{
+    font-size: 80px;
+    font-weight: 900;
+    font-family: monument;
+    text-transform: uppercase;
+    line-height: 75px;
+    letter-spacing: 7px;
+    color: #fff;
+}
+#small-image{
+    height: 400px;
+    width: 300px;
+    /* background-color: red; */
+    background-image: url(https://plus.unsplash.com/premium_photo-1674498703226-2a6937b149e9?q=80&w=1582&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 50%;
+    right: 5%;
+    transform: translate(0,-50%);
+}
+#vertical-text{
+    position:absolute;
+    top: 45%;
+    right: -11%;
+    transform-origin: 0% 0%;
+    /* width: 100%; */
+    /* background-color: red; */
+}
+#vertical-text>h1{
+    font-size: 80px;
+    font-weight: 900;
+    font-family: monument;
+    color: transparent;
+    letter-spacing: 8px;
+    transform: rotate(90deg);
+
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #fff;
+}
